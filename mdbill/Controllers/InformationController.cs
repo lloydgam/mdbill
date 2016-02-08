@@ -68,7 +68,7 @@ namespace mdbill.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(information);
         }
 
         // POST: api/Information
