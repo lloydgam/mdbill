@@ -74,6 +74,8 @@ D:\mdobill\mdbill\bin\mdbill.dll.config
 D:\mdobill\mdbill\bin\mdbill.dll
 D:\mdobill\mdbill\bin\mdbill.pdb
 D:\mdobill\mdbill\bin\Antlr3.Runtime.dll
+D:\mdobill\mdbill\bin\EntityFramework.dll
+D:\mdobill\mdbill\bin\EntityFramework.SqlServer.dll
 D:\mdobill\mdbill\bin\Microsoft.AI.Agent.Intercept.dll
 D:\mdobill\mdbill\bin\Microsoft.AI.DependencyCollector.dll
 D:\mdobill\mdbill\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -95,6 +97,8 @@ D:\mdobill\mdbill\bin\System.Web.WebPages.Deployment.dll
 D:\mdobill\mdbill\bin\System.Web.WebPages.dll
 D:\mdobill\mdbill\bin\System.Web.WebPages.Razor.dll
 D:\mdobill\mdbill\bin\WebGrease.dll
+D:\mdobill\mdbill\bin\EntityFramework.xml
+D:\mdobill\mdbill\bin\EntityFramework.SqlServer.xml
 D:\mdobill\mdbill\bin\Microsoft.AI.DependencyCollector.xml
 D:\mdobill\mdbill\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\mdobill\mdbill\bin\Microsoft.AI.Web.xml
@@ -113,6 +117,9 @@ D:\mdobill\mdbill\bin\System.Web.WebPages.xml
 D:\mdobill\mdbill\bin\System.Web.WebPages.Deployment.xml
 D:\mdobill\mdbill\bin\System.Web.WebPages.Razor.xml
 D:\mdobill\mdbill\bin\Antlr3.Runtime.pdb
-D:\mdobill\mdbill\obj\Debug\mdbill.csprojResolveAssemblyReference.cache
 D:\mdobill\mdbill\obj\Debug\mdbill.dll
 D:\mdobill\mdbill\obj\Debug\mdbill.pdb
+D:\mdobill\mdbill\obj\Debug\mdbill.Migrations.InitialCreate.resources
+D:\mdobill\mdbill\obj\Debug\mdbill.csproj.GenerateResource.Cache
+D:\mdobill\mdbill\obj\Debug\mdbill.Migrations.AddOtherInformation.resources
+D:\mdobill\mdbill\obj\Debug\mdbill.csprojResolveAssemblyReference.cache
