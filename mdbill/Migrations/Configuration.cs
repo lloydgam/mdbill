@@ -10,7 +10,6 @@ namespace mdbill.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "mdbill.DAL.MdbillContext";
         }
 
         protected override void Seed(mdbill.DAL.MdbillContext context)

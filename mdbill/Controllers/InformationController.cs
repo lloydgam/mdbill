@@ -18,6 +18,7 @@ namespace mdbill.Controllers
         private MdbillContext db = new MdbillContext();
 
         // GET: api/Information
+        [Authorize]
         public IQueryable<Information> GetInformations()
         {
             return db.Informations;
