@@ -233,8 +233,10 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ContactsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InformationController.cs" />
+    <Compile Include="Controllers\ProvidersController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DAL\MdbillContext.cs" />
     <Compile Include="DAL\MdbillInitializer.cs" />
@@ -245,8 +247,22 @@
     <Compile Include="Migrations\201602100804307_iniconfig.Designer.cs">
       <DependentUpon>201602100804307_iniconfig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602160512560_changesonmodel.cs" />
+    <Compile Include="Migrations\201602160512560_changesonmodel.Designer.cs">
+      <DependentUpon>201602160512560_changesonmodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602291112438_add-contacts-providers.cs" />
+    <Compile Include="Migrations\201602291112438_add-contacts-providers.Designer.cs">
+      <DependentUpon>201602291112438_add-contacts-providers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602291117308_add-contacts-and-provider.cs" />
+    <Compile Include="Migrations\201602291117308_add-contacts-and-provider.Designer.cs">
+      <DependentUpon>201602291117308_add-contacts-and-provider.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\Information.cs" />
+    <Compile Include="Models\Provider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -283,6 +299,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\mdbill.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -318,6 +335,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201602100804307_iniconfig.resx">
       <DependentUpon>201602100804307_iniconfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602160512560_changesonmodel.resx">
+      <DependentUpon>201602160512560_changesonmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602291112438_add-contacts-providers.resx">
+      <DependentUpon>201602291112438_add-contacts-providers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602291117308_add-contacts-and-provider.resx">
+      <DependentUpon>201602291117308_add-contacts-and-provider.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

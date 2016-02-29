@@ -21,5 +21,9 @@ namespace mdbill.DAL
             modelBuilder.Entity<IdentityRole>().HasKey<string>(r => r.Id);
             modelBuilder.Entity<IdentityUserRole>().HasKey(r => new { r.RoleId, r.UserId });
         }
+
+        public System.Data.Entity.DbSet<mdbill.Models.Provider> Providers { get; set; }
+
+        public System.Data.Entity.DbSet<mdbill.Models.Contact> Contacts { get; set; }
     }
 }

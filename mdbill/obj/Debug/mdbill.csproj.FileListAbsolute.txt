@@ -141,3 +141,6 @@ D:\mdobill\mdbill\obj\Debug\mdbill.csproj.GenerateResource.Cache
 D:\mdobill\mdbill\bin\WebApiDoodle.Net.Http.Formatting.dll
 D:\mdobill\mdbill\bin\WebApiDoodle.Net.Http.Formatting.xml
 D:\mdobill\mdbill\obj\Debug\mdbill.csprojResolveAssemblyReference.cache
+D:\mdobill\mdbill\obj\Debug\mdbill.Migrations.changesonmodel.resources
+D:\mdobill\mdbill\obj\Debug\mdbill.Migrations.addcontactsproviders.resources
+D:\mdobill\mdbill\obj\Debug\mdbill.Migrations.addcontactsandprovider.resources
